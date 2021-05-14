@@ -1,0 +1,58 @@
+/* 主页面样式 */
+body{
+	margin:0;
+	padding:0;
+	background:url("../img/main_bg.jpg");
+}
+.account{
+	width: 50%;
+	height: 100%;
+	margin: 150px auto;
+}
+.account .show{
+	color: #023b66;
+	font-size:24px;
+	margin:50px 50px 50px 50px;
+}
+.account .error{
+	color: #da0700;
+}
+.account .input{
+	height: 45px;
+	line-height: 45px;
+}
+.account .input input{
+	/* calc计算属性：要求括号中的表达式里运算符与数值之间必须有空格 */
+	width: calc(100% - 10px);
+	height: 40px;
+	border: none;
+	outline: none;
+	color: #0cc;
+	background-color: rgba(255, 255, 255, 0.5);
+	font-size: 16px;
+	padding: 0 5px;
+}
+
+
+/* 登录按钮实现 */
+.account .add-btn input{
+	display: block;
+	width: 40%;
+	margin: 30px auto;
+	height: 40px;
+	border: none;
+	outline: none;
+	background-color: #995177;
+	color: #fff;
+	/* 光标样式 */
+	cursor: pointer;
+	position: relative;
+}
+/* 鼠标悬停时 */
+.add-btn:hover{
+	color: #022e58;
+}
+/*鼠标点击时*/
+.add-btn:active{
+	top: 20px;
+}

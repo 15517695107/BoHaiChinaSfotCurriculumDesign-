@@ -1,0 +1,115 @@
+/* 涓婚〉闈㈡牱寮� */
+body,ul,ol,li{
+	margin: 0;
+	padding: 0;
+    list-style: none
+}
+/* 1.椤堕儴鍖哄煙鏍峰紡 */
+.top{
+	width: 100%;
+	height: 150px;
+	background-color: #fff1c4;
+}
+/* 1.1椤堕儴鍖哄煙缁嗗寲 */
+.top .top-logo{
+	height: 100%;
+	width: 600px;
+	margin: 0px 20px 0 0px;
+	/* 婕傛诞锛岃劚绂绘枃妗ｆ祦 */
+	object-fit: cover;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(../img/zhihui.png);
+}
+.top-systemname{
+	width: 300px;
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	font-size: 36px;
+	font-weight: 800;
+	float: left;
+	margin:30px  30px;
+}
+.top .top-welcome{
+	width: 150px;
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	font-size:18px;
+	margin-right:15%;
+	margin-top: 90px;
+	float: right;
+}
+.top::after{
+	width: 100%
+	height:1px;
+	display: block;
+	/* 娓呴櫎婕傛诞 */
+	clear: both;
+}
+/* 2.涓棿鍖哄煙鏍峰紡 */
+.center{
+	width: 100%;
+	height: 1300px;
+	position: relative;
+/* 	background-color: #f7c331; */
+}
+/* 2.1涓棿宸﹁竟鍖哄煙鏍峰紡*/
+.center .center-left{
+	width: 25%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #028cbe;
+}
+.center .center-left>ul{
+	/* >琛ㄧず鐩寸郴鍚庝唬 */
+	width: calc(100% - 50px);
+	height: calc(100% - 50px);
+	margin: 40px;
+}
+.center .center-left>ul>li{
+	width: calc(100% - 50px);
+	height: 240px;
+	margin: 10px 15px;
+}
+.center .center-left>ul>li ul{
+	width: calc(100% - 50px);
+	height: 240px;
+	margin: 10px 15px;
+}
+.center .center-left>ul>li ul li{
+	width: 260px;
+	height:70px;
+	line-height:70px;
+	padding-left: 40px;
+	font-size: 18px;
+	text-align: center;
+	background-color: #e8e8ca;
+	border: 1px solid:#33213d;
+}
+.center .center-left>ul>li ul li.first{
+	background-color: #e2ca70;
+}
+/* 2.2涓棿鍙宠竟鍖哄煙鏍峰紡*/
+.center .center-right{
+	width: 75%;
+	padding: 0 40px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: -webkit-linear-gradient(
+	left, #0196c7,lightblue,#dcc7aa
+	);
+}
+/* 3.搴曢儴鍖哄煙鏍峰紡*/
+.footer{
+	width: 100%;
+	height:150px;
+	background-color: #d7d0da;
+}

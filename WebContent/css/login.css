@@ -1,0 +1,96 @@
+/*登录页面样式*/
+body{
+	margin:0;
+	padding:0;
+	background:url("../img/main_bg.jpg");
+}
+/*登录盒子*/
+.main{
+	width:350px;
+	height:650px;
+	background-color:rgba(255, 170, 255, 0.5);
+	margin:40px auto;
+	border-top:8px solid #cccccc;
+	position:relative;
+}
+/*头像样式*/
+.header-box{
+	width:198px;
+	height:198px;
+	border-radius:50%;
+	margin:50px auto;
+	position:relative;
+}
+/* 头像图片设置 */
+.header-box-pic{
+	width:184px;
+	height:184px;
+	border-radius:50%;
+	background-color:#0cc;
+	position:absolute;
+	top:7px;
+	left:7px;
+	background:url("../img/wqyn.jpeg") no-repeat;
+	background-size:cover;
+}
+/* 用户名密码设置 */
+.account{
+	width: 75%;
+	margin: 0 auto;
+}
+.account .show{
+	color: #023b66;
+}
+.account .error{
+	color: #da0700;
+}
+.account .input{
+	height: 45px;
+	line-height: 45px;
+}
+.account .input input{
+	/* calc计算属性：要求括号中的表达式里运算符与数值之间必须有空格 */
+	width: calc(100% - 10px);
+	height: 40px;
+	border: none;
+	outline: none;
+	color: #0cc;
+	background-color: rgba(255, 255, 255, 0.5);
+	font-size: 16px;
+	padding: 0 5px;
+}
+/* 登录按钮实现 */
+.account .login-btn input{
+	display: block;
+	width: 75%;
+	margin: 30px auto;
+	height: 40px;
+	border: none;
+	outline: none;
+	background-color: #995177;
+	color: #fff;
+	/* 光标样式 */
+	cursor: pointer;
+	position: relative;
+}
+/* 鼠标悬停时 */
+.login-btn:hover{
+	color: #022e58;
+}
+/*鼠标点击时*/
+.login-btn:active{
+	top: 20px;
+}
+/* 登录底部样式 */
+.footer{
+	line-height: 70px;
+	border-top: 1px solid #4f0022;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+}
+.footer a{
+	text-decoration: none;
+	color: #022E58;
+}
